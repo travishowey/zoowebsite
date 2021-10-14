@@ -1,0 +1,439 @@
+/**************************************
+BOX-SIZING STYLE
+/*************************************/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/***********************
+GLOBAL STYLES
+***********************/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 24px
+}
+
+h3 {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*****************
+nav bar
+*****************/
+
+nav {
+    background-color: #B87A61;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    height: 10%;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 16px;
+    float: right;
+    color: black;
+    font-weight: bold;
+}
+
+nav img {
+    display: block;
+    justify-content: space-between;
+    float: left;
+    width: 30%
+}
+
+/*****************
+Hero
+*****************/
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Pixabay/horses.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white
+}
+
+.hero h2 {
+    color: white
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+}
+.hero .btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+
+
+/*****************
+Plan Your Visit
+*****************/
+.plan {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    text-align: center
+    
+}
+.topPlan {
+    display: block;
+    text-align: center;
+
+}
+
+.some-page-wrapper {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wrapColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.accessibilityColumn {
+    height: 100px;
+}
+.wrapColumn p {
+    text-align: left;
+}
+
+.mapColumn {
+    height: 100px;
+}
+
+.wrapColumn img {
+    max-width: 45%;
+}
+
+/*****************
+Attractions
+*****************/
+
+.attractions {
+    background-color: #B87A61;
+    padding-left: 25px;
+}
+
+.attractions .btn {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+    text-align: center;
+    white-space: nowrap;
+}
+.btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+
+
+
+/*****************
+Article
+*****************/
+.fox {
+    width: 50%;
+    z-index: 0;
+    float: right;
+}
+
+.article {
+    background-color: #B1E691;
+    overflow: hidden;
+}
+
+.article h1{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.article p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.article h2 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*****************
+Footer
+*****************/
+
+.footer {
+    background-color: #A7AFE6;
+}
+
+.footColumn {
+    float: left;
+    width: 50%;
+}
+
+.footRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    float: center;
+}
+
+.fab {
+    font-size: 3rem;
+    color: rgba(147, 112, 219, 0.8);
+}
+
+.footer .btn {
+    display: block;
+    width: 300px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+}
+
+.btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+
+/***********************
+MEDIA QUERIES
+***********************/
+
+@media (max-device-width: 767px) {
+
+    h1 {
+        font-family: 'Fahkwang', sans-serif;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-family: 'Fahkwang', sans-serif;
+        font-size: 24px
+    }
+
+    h3 {
+        font-family: 'Chau Philomene One', sans-serif;
+        font-size: 24px;
+    }
+
+    p {
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 18px;
+    }
+
+
+    .some-page-wrapper {
+        margin: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .wrapColumn {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+
+    .accessibilityColumn {
+        height: 100px;
+    }
+
+    .mapColumn {
+        height: 100px;
+    }
+
+    .wrapColumn img {
+        max-width: 45%;
+    }
+
+
+
+    .btn {
+        display: block;
+        width: 250;
+        height: 100px;
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none;
+        font-size: auto;
+        border: 3px solid white;
+        border-radius: 20px;
+        background-color: rgba(147, 112, 219, 0.8);
+    }
+
+    .footer .btn {
+        display: block;
+        width: 375px;
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none;
+        font-size: auto;
+        border: 3px solid white;
+        border-radius: 20px;
+        background-color: rgba(147, 112, 219, 0.8);
+    }
+
+    .hero .btn {
+        display: block;
+        width: 200px;
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none;
+        font-size: auto;
+        border: 3px solid white;
+        border-radius: 20px;
+        background-color: rgba(147, 112, 219, 0.8);
+    }
+
+    .attractions .btn {
+        display: block;
+        width: 250px;
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-decoration: none;
+        font-size: auto;
+        border: 3px solid white;
+        border-radius: 20px;
+        background-color: rgba(147, 112, 219, 0.8);
+        text-align: center;
+    }
+
+
+}
+
+}
