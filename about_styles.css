@@ -1,0 +1,246 @@
+/**************************************
+BOX-SIZING STYLE
+/*************************************/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/***********************
+GLOBAL STYLES
+***********************/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 24px
+}
+
+h3 {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*****************
+nav bar
+*****************/
+
+nav {
+    background-color: #B87A61;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    height: 10%;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 16px;
+    float: right;
+    color: black;
+    font-weight: bold;
+}
+
+nav img {
+    display: block;
+    justify-content: space-between;
+    float: left;
+    width: 30%
+}
+
+/*****************
+Hero
+*****************/
+
+.hero {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/FlickrImages/KeeperWTapir.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white
+}
+
+.hero h2 {
+    color: white
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+}
+.hero .btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}
+
+
+/*****************
+Hero
+*****************/
+
+.info img {
+    display: block;
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.info {
+    background-color: #B1E691;
+}
+.info h1{
+    margin: .7em;
+}
+.info h2 {
+    margin: .7em;
+}
+.info h3 {
+    margin: .7em;
+}
+.info h4{
+    margin: .7em;
+}
+.info p{
+    margin: .7em;
+}
+.info {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+Footer
+*****************/
+
+.footer {
+    background-color: #A7AFE6;
+    overflow: hidden;
+}
+
+.footColumn {
+    float: left;
+    width: 50%;
+}
+
+.footRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    float: center;
+}
+
+.fab {
+    font-size: 3rem;
+    color: rgba(147, 112, 219, 0.8);
+}
+
+.footer .btn {
+    display: block;
+    width: 300px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+}
+
+.btn:hover {
+    background-color: rgba(92, 70, 137, 0.8);
+}

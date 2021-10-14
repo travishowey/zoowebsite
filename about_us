@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Travis Howey">
+    <title>Zoo Website Project</title>
+    <link rel="stylesheet" type="text/css" href="about_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One|Fahkwang|Gothic+A1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ffa2d57b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <nav>       
+        <img src="Images/zoo_logos/logo_tiger.svg" class="logo" alt="Zoo Logo">
+    <ul>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="support.html">Support</a></li>
+        <LI><a href="https://example.com/">Contact Us</a></LI>
+        <LI><a href="https://example.com/">Meet the staff</a></LI>
+    </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Zoo Events</h1>
+            <a href="https://example.com/" class="btn">DONATE NOW</a>
+        </div>
+    </section>
+
+    <section class="info">
+        <br>
+        <img src="Images/FlickrImages/BoyLookAtPanda.jpg" alt="Panda">
+        <h2>Behind the scene tours</h2>
+        <h4>Your group can share an experience like none other: behind the scenes at the Horizon Zoo. Get a peek at what it’s like to be a zookeeper. See the animals up close and personal. Each tour provides the enthralling, breathtaking experience of seeing the world’s dramatic wildlife up close. This is a great opportunity for groups of all sizes and interest></h4>
+        <br>
+        <h4>Animal Care tours take groups through the animal care facilities. Find out what it takes to provide healthy food for all of the animals here at the zoo by visiting with the staff at the Nutrition Center. Meet with our doctors at the Vet Hospital to learn more about the animals in their car and some of the very clever ways they treat some of the needs they require</h4>
+        <br>
+
+        <img src="Images/FlickrImages/ElephantEscape.jpg" alt="elephant">
+
+        <h2>Educational Programs</h2>
+        <h4>Horizon Zoo’s educational events are an integral part of the institution’s commitment to conservation. The zoo offers engaging programs, exhibits and materials that educate our community and school children about wildlfe.</h4>
+        <br>
+        <h4>Tens of thousands of school cildren attend our classroom presentations, zoo tours, overnights, and outreach programs each school year. Summer and weekend programs for all ages bring the excitement of learning about wildlife to area residents. Materials are available to be loaned out from our Horizon Resource Center such as hands-on-kits, videos and activity books.</h4>
+        <img src="Images/FlickrImages/Train.jpg" alt="Train Ride">
+        <br>
+
+        <h2>Take a Ride</h2>
+        <h4>Our Horizon Express Train offers a 20-mintue narrated tour weaving through tunnels and past favorite animal exhibits on a 1.5-mile round trip. one of the zoo’s most popular attractions, the railroad has transported more than 30 million visitors since 1960. The railroad operates year-round, weather permitting</h4>
+        <br>
+
+
+        <img src="Images/FlickrImages/Polar.jpg" alt="Polar Bear">
+        <h2>Open Activities</h2>
+        <h4>Every weekend, public holidays and during
+            school vacations we organize open activities
+            for our visitors included in the entrance fee. </h4>
+        <br>
+        <h4>Animals feeding, play and learn games,
+            storytelling, education exhibitions, elephants
+            and dolphin show and many more.
+            Choose the ones you prefer among
+            the options we suggest every week! </h4>
+        <br>
+        <img src="Images/FlickrImages/Owl.jpg" alt="Barn Owl">
+        <h2>Holiday Camps For Kids</h2>
+        <h4>During the Christmas and Summer holidays, your children can come to the Horizon Zoo to spend their free time in a pleasant environment, enjoying, loving and respecting the animals</h4>
+        <br>
+        <h4>We prepared different types of camps to discover the wonderful world of the Zoo, explore nature, meet new friends and become one of the guardians of animals</h4>
+        <img src="Images/FlickrImages/corporate.jpg" alt="Event Hall">
+        <h2>Birthday Parties &#38; Corporate Events</h2>
+        <h4>Create an exciting new adventure for your child’s birthday or make a unique corporate event. We have different birthday party options for kids ages 3 and up such as a Really Big Reptiles Pary, Aquatic Adventure Party, Animals and Art Party, and more.</h4>
+        <br>
+        <h4>Hold your next corporate event at the zoo. From business meetings and team-building experiences, to company picnics and holiday parties, every corporate event is a little more fun when held at the zoo</h4>
+<br>
+
+
+
+    </section>
+
+
+
+    <section class="footer">
+        <div class="footRow">
+            <div class="footColumn">
+                <h1>Stay In The Know</h1>
+                <br>
+                <a href="https://example.com/" class="btn">OTHER ATTRACTIONS</a>
+                <br>
+                <h2>Our email newsletter keeps you up-to-date on all of our wildlife conservation efforts and successes</h2>
+            </div>
+            <div class="footColumn" style="font-size: rem;">
+                <h1>Stay In Touch</h1>
+                <ul>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
+                <br>
+                <h2>Address</h2>
+                <p>138 Atlantis Lane, Kingsport IL 121164</p>
+                <br>
+                <h2>Main Phone Number</h2>
+                <p>(222) 222-2222</p>
+                <br>
+                <h2>Email</h2>
+                <p>Membership:</p>
+                <p>Development:</p>
+                <p>Events:</p>
+                <p>Education:</p>
+                <p>Volunteer:</p>
+            </div>
+        </div>
+    </section>
